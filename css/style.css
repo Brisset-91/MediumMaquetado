@@ -1,13 +1,9 @@
-body nav .j3size {
+nav .j3size {
   width: 2rem;
   margin: 1rem;
 }
 
-body nav .j3paddbut {
-  padding: .5rem;
-}
-
-body main {
+main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,30 +13,39 @@ body main {
           flex-direction: row;
 }
 
-body .container1 {
+.container1 {
   width: 70%;
   padding: 2rem;
 }
 
-body .container1 .j3sizeimg {
+.container1 .j3sizeimg {
   width: 50%;
 }
 
-body .container1 .j3divtext {
+.container1 .j3divtext {
   font-size: 10px;
 }
 
-body .container1 button {
+.container1 button {
   border-bottom-color: light;
   -webkit-transition: border-bottom-color 1s;
   transition: border-bottom-color 1s;
 }
 
-body .container1 button:hover {
+.container1 button:hover {
   border-bottom-color: black;
 }
 
-body .container2 {
+.container2 {
   width: 30%;
+}
+
+.con2-Img {
+  border-radius: 2rem;
+  width: 4.4rem;
+}
+
+.j3textfont {
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

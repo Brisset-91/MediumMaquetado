@@ -43,4 +43,9 @@ body .container1 button:hover {
 body .container2 {
   width: 30%;
 }
+
+.con2-Img {
+  border-radius: 2rem;
+  width: 4.4rem;
+}
 /*# sourceMappingURL=style.css.map */

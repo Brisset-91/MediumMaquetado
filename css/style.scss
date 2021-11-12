@@ -1,3 +1,14 @@
+body{
+
+nav{    
+    .j3size{
+        width: 2rem;
+        margin: 1rem;
+    }
+    .j3paddbut{
+        padding: .5rem;
+    }
+}
 
 main{
     display: flex;
@@ -5,7 +16,23 @@ main{
 }
 .container1{
     width: 70%;
+    padding: 2rem;
+        .j3sizeimg{
+            width: 50%;
+        }
+        .j3divtext{
+            font-size: 10px;
+        }    
+        button{
+            border-bottom-color: light;
+            transition: border-bottom-color 1s;
+        }
+        button:hover{
+            border-bottom-color: black;
+        }
 }
 .container2{
     width: 30%;
+}
+
 }

@@ -1,4 +1,13 @@
-main {
+body nav .j3size {
+  width: 2rem;
+  margin: 1rem;
+}
+
+body nav .j3paddbut {
+  padding: .5rem;
+}
+
+body main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,11 +17,30 @@ main {
           flex-direction: row;
 }
 
-.container1 {
+body .container1 {
   width: 70%;
+  padding: 2rem;
 }
 
-.container2 {
+body .container1 .j3sizeimg {
+  width: 50%;
+}
+
+body .container1 .j3divtext {
+  font-size: 10px;
+}
+
+body .container1 button {
+  border-bottom-color: light;
+  -webkit-transition: border-bottom-color 1s;
+  transition: border-bottom-color 1s;
+}
+
+body .container1 button:hover {
+  border-bottom-color: black;
+}
+
+body .container2 {
   width: 30%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container1 {
+  width: 70%;
+}
+
+.container2 {
+  width: 30%;
+}
+/*# sourceMappingURL=style.css.map */

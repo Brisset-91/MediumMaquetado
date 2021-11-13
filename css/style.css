@@ -48,4 +48,8 @@ main {
 .j3textfont {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.c2btn-princ :hover {
+  background-color: #686564;
+}
 /*# sourceMappingURL=style.css.map */

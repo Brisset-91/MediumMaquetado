@@ -12,11 +12,10 @@ main{
     flex-direction: row;
 }
 .container1{
-    width: 70%;
+    width: 68%;
     padding: 2rem;
         .j3sizeimg{
-            width: 50%;
-        }
+            width: 50%;        }
         .j3divtext{
             font-size: 10px;
         }    
@@ -38,4 +37,12 @@ main{
 }
 .j3textfont{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-card-E{
+    height: 38vh;
+}
+
+.bg-color-boton{
+    background-color:limegreen;
 }

@@ -14,7 +14,7 @@ main {
 }
 
 .container1 {
-  width: 70%;
+  width: 68%;
   padding: 2rem;
 }
 
@@ -47,5 +47,13 @@ main {
 
 .j3textfont {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-card-E {
+  height: 38vh;
+}
+
+.bg-color-boton {
+  background-color: limegreen;
 }
 /*# sourceMappingURL=style.css.map */

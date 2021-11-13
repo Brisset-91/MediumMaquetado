@@ -14,7 +14,7 @@ main {
 }
 
 .container1 {
-  width: 70%;
+  width: 68%;
   padding: 2rem;
 }
 
@@ -51,5 +51,13 @@ main {
 
 .c2btn-princ :hover {
   background-color: #686564;
+}
+
+.img-card-E {
+  height: 38vh;
+}
+
+.bg-color-boton {
+  background-color: limegreen;
 }
 /*# sourceMappingURL=style.css.map */

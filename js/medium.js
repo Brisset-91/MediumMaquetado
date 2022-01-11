@@ -57,7 +57,6 @@ $(document).ready(function(){
         for(post in data) {
             let { title, abstract, author, date, readingTime, formFile, postContent } = data[post]
             temp += `
-            
             <div class="row g-0">
               <div class="col-md-9 ">
                 <div class="card-body">
@@ -66,6 +65,7 @@ $(document).ready(function(){
                     <h4>${author}</h4>
                   </div>
                   <h5 class="card-title"><a href="https://medium.com/geekculture/software-engineering-interviews-in-2021-37b644253527" class="text-decoration-none text-black fs-3">${title}</a></h5>
+                  <a href="http://127.0.0.1:5503/interiorPost.html"></a>
                   <p class="card-text">${postContent}</p>
                      <div class="d-flex ">
                      <p class="card-text"><small class="text-muted">${readingTime} ${date}</small></p>

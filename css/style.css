@@ -62,9 +62,3 @@ main {
   background-color: limegreen;
 }
 /*# sourceMappingURL=style.css.map */
-
-@media (max-width: 767px){
-  .users{
-    display:none;
-  }
-}

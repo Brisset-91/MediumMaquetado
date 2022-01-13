@@ -31,23 +31,23 @@
                 <input type="text" aria-label="First name" class="form-control" id="title">
               </div>
               <div class="input-group">
-                <span class="input-group-text">ImgPerfil</span>
+                <span class="input-group-text">URL de tu imagen Perfil</span>
                 <input type="url" aria-label="First name" class="form-control" id="imgPerfil">
               </div>
               <div class="input-group">
                 <span class="input-group-text">Autor</span>
                 <input type="text" aria-label="First name" class="form-control" id="autor">
               </div>
-              <div class="input-group">
+              <!--<div class="input-group">
                 <span class="input-group-text">Fecha</span>
                 <input type="text" aria-label="First name" class="form-control" id="date">
-              </div>
+              </div>--->
               <div class="input-group">
                 <span class="input-group-text">Tiempo de lectura</span>
                 <input type="number" aria-label="First name" class="form-control" id="readingTime">
               </div>
               <div class="input-group">
-                <span class="input-group-text">Selecciona tu archivo</span>
+                <span class="input-group-text">URL de tu imagen </span>
                 <input type="url" aria-label="First name" class="form-control" id="formFile">
               </div>
               <div class="input-group">
@@ -71,7 +71,7 @@
 
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="closeModal">Close</button>
             <button type="button" class="btn btn-primary" id="sendPost">Save changes</button>
           </div>
         </div>
@@ -488,4 +488,5 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./js/medium.js"></script>
 </body>
+<script src="java/post.js"></script>
 </html>

@@ -73,7 +73,7 @@ $(document).ready(function(){
                       <img src="${imgPerfil}" alt="">
                       <h4>${author}</h4>
                       </div>
-                    <h5 class="card-title"><a href="https://medium.com/geekculture/software-engineering-interviews-in-2021-37b644253527" class="text-decoration-none text-black fs-3">${title}</a></h5>
+                      <h5 class="card-title"><a href="interiorPost.html?idpost=${post}" class="text-decoration-none text-black fs-3">${title}</a></h5>
                     <a href="http://127.0.0.1:5503/interiorPost.html"></a>
                     <p class="card-text">${abstract}</p>
                       <div class="d-flex ">
@@ -85,10 +85,10 @@ $(document).ready(function(){
                         <a href="editPost.html?idpost=${post}"><i class="fas fa-pencil-alt" aria-hidden="true"></i></a></button>
                         </div>
                       </div>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex justify-content-center">
-                  <img src="${formFile}" class="img-fluid rounded-start img-card-E" alt="...">
+                  </div>
+                  <div class="col-md-4 d-flex justify-content-center">
+                    <img src="${formFile}" class="img-fluid rounded-start img-card-E" alt="...">
+                  </div>
                 </div>
               </div>
                 `

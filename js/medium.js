@@ -71,7 +71,7 @@ $(document).ready(function(){
         for(post in data) {
             let { title, imgPerfil, author, date, readingTime, formFile, abstract, postContent } = data[post]
             temp += `
-            <div class="row g-0">
+            <div class="row g-0 mb-3">
               <div class="col-md-8 ">
                   <div class="card-body">
                     <div class="col d-flex justify-content-start">
@@ -104,4 +104,3 @@ $(document).ready(function(){
         console.log(err)
     })
 })
-

@@ -72,7 +72,6 @@ $(document).ready(function(){
                       <h4>${author}</h4>
                       </div>
                     <h5 class="card-title"><a href="http://127.0.0.1:5501/interiorPost.html" class="text-decoration-none text-black fs-3">${title}</a></h5>
-                    <a href="http://127.0.0.1:5503/interiorPost.html"></a>
                     <p class="card-text">${abstract}</p>
                       <div class="d-flex ">
                       <p class="card-text"><small class="text-muted">${readingTime} ${'min read'} ${dateCreated}</small></p>

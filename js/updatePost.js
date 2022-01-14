@@ -7,14 +7,14 @@ $(document).ready(function(){
         method: 'GET',
         url: `https://medium-7cfcc-default-rtdb.firebaseio.com/${idPost}.json`
     }).done((data) => {
-      document.querySelector('#title').value = data.title,
-      document.querySelector('#imgPerfil').value = data.imgPerfil,
-      document.querySelector('#autor').value = data.author,
-      document.querySelector('#readingTime').value = data.readingTime,
-      document.querySelector('#formFile').value = data.formFile,
-      document.querySelector('#abstract').value = data.abstract,
-      document.querySelector("#inputGroupSelect01").value = data.category,
-     document.querySelector('#postContent').value = data.postContent
+        document.querySelector('#title').value = data.title,
+        document.querySelector('#imgPerfil').value = data.imgPerfil,
+        document.querySelector('#autor').value = data.author,
+        document.querySelector('#readingTime').value = data.readingTime,
+        document.querySelector('#formFile').value = data.formFile,
+        document.querySelector('#abstract').value = data.abstract,
+        document.querySelector("#inputGroupSelect01").value = data.category,
+        document.querySelector('#postContent').value = data.postContent
     }
     ).fail((err) => {
         console.log(err)
@@ -40,16 +40,16 @@ $(document).ready(function(){
     let updatePost = document.querySelector('#updatePost')
     updatePost.addEventListener('click', () => {
         console.log(idPost)
-      let title = document.querySelector('#title').value
-      let imgPerfil = document.querySelector('#imgPerfil').value
-      let author = document.querySelector('#autor').value
-      let fecha = new Date()
-      let dateCreated = `${fecha.getDate()}/${fecha.getMonth() +1}/${fecha.getFullYear()}`
-      let readingTime = document.querySelector('#readingTime').value
-      let formFile = document.querySelector('#formFile').value
-      let abstract = document.querySelector('#abstract').value
-      let category = document.querySelector("#inputGroupSelect01").value;
-      let postContent = document.querySelector('#postContent').value
+        let title = document.querySelector('#title').value
+        let imgPerfil = document.querySelector('#imgPerfil').value
+        let author = document.querySelector('#autor').value
+        let fecha = new Date()
+        let dateCreated = `${fecha.getDate()}/${fecha.getMonth() +1}/${fecha.getFullYear()}`
+        let readingTime = document.querySelector('#readingTime').value
+        let formFile = document.querySelector('#formFile').value
+        let abstract = document.querySelector('#abstract').value
+        let category = document.querySelector("#inputGroupSelect01").value;
+        let postContent = document.querySelector('#postContent').value
 
     if(
         title !== '' &&

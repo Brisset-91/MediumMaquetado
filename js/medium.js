@@ -57,6 +57,7 @@ btnSendPost.addEventListener('click', () => {
       }
 
   })
+  
 //----------------------Método Get traer todos los posts---------------------------------
       $.ajax({
           method: 'GET',
@@ -76,7 +77,7 @@ btnSendPost.addEventListener('click', () => {
                       <h4 class="textOne">${author}</h4>
                     </div>
                       <h5 class="card-title"><a href="interiorPost.html?idpost=${post}" class="text-decoration-none fs-3 link-dark" >${title}</a></h5>
-                      <a href="http://127.0.0.1:5503/interiorPost.html"></a>
+                        <a href="http://127.0.0.1:5503/interiorPost.html"></a>
                         <p class="card-text d-none d-md-block colorAbs">${abstract}</p>
                       <div class="d-flex ">
                           <p class="card-text"><small class="text-muted">${readingTime} ${'min read'} ${dateCreated}</small></p>

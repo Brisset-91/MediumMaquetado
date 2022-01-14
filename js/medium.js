@@ -1,9 +1,10 @@
 
 $(document).ready(function(){
 //----------------------Método posts para crear ---------------------------------
-  const newPost = (newObj) => {
-    
-      $.post(`https://medium-7cfcc-default-rtdb.firebaseio.com/.json`, JSON.stringify(newObj), function(data) {
+
+const newPost = (newObj) => {
+
+      $.post("https://medium-7cfcc-default-rtdb.firebaseio.com/.json", JSON.stringify(newObj), function(data) {
               console.log(data)
               document.getElementById('closeModal').click()
       }).fail( function (err) {
@@ -59,7 +60,7 @@ btnSendPost.addEventListener('click', () => {
 //----------------------Método Get traer todos los posts---------------------------------
       $.ajax({
           method: 'GET',
-          url: `https://medium-7cfcc-default-rtdb.firebaseio.com/.json`
+          url: "https://medium-7cfcc-default-rtdb.firebaseio.com/.json"
       }).done((data) => {
           console.log(data)
           let temp = ''

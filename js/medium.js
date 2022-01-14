@@ -70,11 +70,7 @@ btnSendPost.addEventListener('click', () => {
               let { title, imgPerfil, author, dateCreated, readingTime, formFile, abstract, postContent } = data[post]
               temp += `
               <div class="row g-0">
-<<<<<<< HEAD
-                <div class="col-md-7 ">
-=======
                 <div class="col-md-12 d-flex">
->>>>>>> develop
                     <div class="card-body">
                       <div class="col d-flex justify-content-start">
                       <img src="${imgPerfil}" class= "user_img card-img-top rounded-circle border 0" alt="">

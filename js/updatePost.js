@@ -5,7 +5,7 @@ $(document).ready(function(){
 //----------------------Traer el post que seleccioné con el id--------------------------
     $.ajax({
         method: 'GET',
-        url: `${firebaseUrl}${idPost}.json`
+        url: `https://medium-7cfcc-default-rtdb.firebaseio.com/${idPost}.json`
     }).done((data) => {
       document.querySelector('#title').value = data.title,
       document.querySelector('#imgPerfil').value = data.imgPerfil,

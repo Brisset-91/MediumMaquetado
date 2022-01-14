@@ -54,17 +54,15 @@ main {
 }
 
 .img-card-E {
-  height: 30vh;
   border: none;
 }
 
 .bg-color-boton {
   background-color: limegreen;
 }
-/*# sourceMappingURL=style.css.map */
 
-@media (max-width: 767px){
-  .users{
-    display:none;
-  }
+.user_img {
+  height: 35px;
+  width: 35px;
 }
+/*# sourceMappingURL=style.css.map */

@@ -67,10 +67,10 @@ $(document).ready(function(){
               let { title, imgPerfil, author, dateCreated, readingTime, formFile, abstract, postContent } = data[post]
               temp += `
               <div class="row g-0">
-                <div class="col-md-8 ">
+                <div class="col-md-7 ">
                     <div class="card-body">
                       <div class="col d-flex justify-content-start">
-                      <img src="${imgPerfil}" alt="">
+                      <img src="${imgPerfil}" class= "user_img card-img-top rounded-circle border 0" alt="">
                       <h4>${author}</h4>
                       </div>
                       <h5 class="card-title"><a href="interiorPost.html?idpost=${post}" class="text-decoration-none text-black fs-3">${title}</a></h5>

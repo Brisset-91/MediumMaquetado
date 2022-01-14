@@ -55,13 +55,26 @@ main{
     height: 35px;
     width: 35px;
 }
+.contPost{
+    margin: 6rem;
+}
+.form{
+    padding: 3rem;
+}
+
 
 @media  (max-width: 767px){
+    .contPost{
+        margin: 0;
+    }
     .users{
         display:none;
     }
     .container1{
         width: 100%;
+    }
+    .form{
+        padding: 0.5rem;
     }
 }
 

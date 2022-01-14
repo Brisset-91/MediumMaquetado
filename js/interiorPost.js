@@ -9,13 +9,13 @@ $(()=>{
         let formFile = resp.formFile                
         temp += `
         <div>
-        <img src="${formFile}" class="card-image" alt="...">
+        <img src="${formFile}" class="card-image" alt="..." width="100%" height="400rem">
         </div>
         `
         $('#imagePost').html(temp)
         $('.titlePost').text(resp.title)
         $('.authorPost').text(resp.author)
-        $('.timePost').text(resp.readingTime + " min.")
+        $('.timePost').text(resp.readingTime + " min. read")
         $('.datePost').text(resp.date)
         $('.textPost').text(resp.postContent)
     })

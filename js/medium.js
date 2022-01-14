@@ -86,7 +86,7 @@ $(document).ready(function(){
                         </div>
                       </div>
                   </div>
-                  <div class="col-md-4 d-flex justify-content-center">
+                  <div class="col-md-3 d-flex justify-content-center">
                     <img src="${formFile}" class="img-fluid rounded-start img-card-E" alt="...">
                   </div>
                 </div>

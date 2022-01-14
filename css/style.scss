@@ -41,7 +41,7 @@ main{
     background-color: rgb(104, 101, 100);
 }
 .img-card-E{
-    // height: 30vh;
+    height: 30vh;
     border: none
 }
 
@@ -53,4 +53,10 @@ main{
 .user_img{
     height: 35px;
     width: 35px;
+}
+
+@media  (max-width: 767px){
+    .users{
+        display:none;
+    }
 }

@@ -1,8 +1,7 @@
-* {
+*{
   font-size: 12px;
   background-color: white;
 }
-
 nav .j3size {
   width: 2rem;
   margin: 1rem;
@@ -17,9 +16,7 @@ main {
       -ms-flex-direction: row;
           flex-direction: row;
 }
-.colorAbs{
-  color:gray;
-}
+
 .container1 {
   width: 68%;
   padding: 2rem;
@@ -81,6 +78,10 @@ main {
 
 .form {
   padding: 3rem;
+}
+
+.role {
+  font-size: 15px;
 }
 
 @media (max-width: 767px) {

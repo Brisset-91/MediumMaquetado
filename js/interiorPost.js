@@ -16,7 +16,7 @@ $(()=>{
         let formFile = resp.formFile                
         temp += `
         <div>
-        <img src="${formFile}" class="card-image" alt="..." width="100%" height="400rem">
+        <img src="${formFile}" class="card-image rounded mx-auto d-block" alt="..." width="100%" height="270rem">
         </div>
         `
         $('#avatarPost').html(temp1)

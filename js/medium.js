@@ -75,7 +75,7 @@ btnSendPost.addEventListener('click', () => {
                       <img src="${imgPerfil}" class= "user_img card-img-top rounded-circle border 0" alt="">
                       <h4>${author}</h4>
                     </div>
-                      <h5 class="card-title"><a href="interiorPost.html?idpost=${post}" class="text-decoration-none text-black fs-3">${title}</a></h5>
+                      <h5 class="card-title"><a href="interiorPost.html?idpost=${post}" class="text-decoration-none fs-3">${title}</a></h5>
                       <a href="http://127.0.0.1:5503/interiorPost.html"></a>
                         <p class="card-text d-none d-md-block">${abstract}</p>
                       <div class="d-flex ">

@@ -71,7 +71,7 @@ btnSendPost.addEventListener('click', () => {
                 <div class="col-md-12 d-flex">
                     <div class="card-body">
                       <div class="col d-flex justify-content-start">
-                      <img src="${imgPerfil}" alt="">
+                      <img src="${imgPerfil}" class= "user_img card-img-top rounded-circle border 0" alt="">
                       <h4>${author}</h4>
                       </div>
                       <h5 class="card-title"><a href="interiorPost.html?idpost=${post}" class="text-decoration-none text-black fs-3">${title}</a></h5>
@@ -87,7 +87,7 @@ btnSendPost.addEventListener('click', () => {
                         </div>
                       </div>
                   </div>
-                  <div class="col-md-4 d-flex justify-content-center">
+                  <div class="col-md-3 d-flex justify-content-center">
                     <img src="${formFile}" class="img-fluid rounded-start img-card-E" alt="...">
                   </div>
                 </div>

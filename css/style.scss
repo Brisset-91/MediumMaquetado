@@ -1,5 +1,3 @@
-
-    
 nav{    
     .j3size{
         width: 2rem;
@@ -44,10 +42,26 @@ main{
 }
 .img-card-E{
     height: 30vh;
-    border: none
+    border: none;
+    margin-bottom: 2rem;
 }
 
 .bg-color-boton{
     background-color:limegreen;
 
 }
+
+.user_img{
+    height: 35px;
+    width: 35px;
+}
+
+@media  (max-width: 767px){
+    .users{
+        display:none;
+    }
+    .container1{
+        width: 100%;
+    }
+}
+

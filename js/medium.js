@@ -88,8 +88,8 @@ btnSendPost.addEventListener('click', () => {
                             </div>
                         </div>
                   </div>
-                    <div class="col-5 col-md-5 d-flex justify-content-center">
-                      <img src="${formFile}" class="img-fluid rounded-start img-card-E" alt="..." height="25rem";>
+                    <div class="col-5 col-md-3 d-flex justify-content-center">
+                      <img src="${formFile}" class="img-fluid rounded-start img-card-E" alt="..." witdh="100%">
                     </div>
                 </div>
               </div>

@@ -71,7 +71,7 @@ btnSendPost.addEventListener('click', () => {
               <div class="row g-0">
                 <div class="col-12 col-md-12 d-flex">
                   <div class="card-body">
-                    <div class="col-3 d-flex justify-content-start">
+                    <div class="col-8 d-flex justify-content-start">
                       <img src="${imgPerfil}" class= "user_img card-img-top rounded-circle border 0" alt="">
                       <h4>${author}</h4>
                     </div>

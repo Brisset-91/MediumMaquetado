@@ -2,6 +2,7 @@
 $(document).ready(function(){
 //----------------------Método posts para crear ---------------------------------
   const newPost = (newObj) => {
+    
       $.post(`https://medium-7cfcc-default-rtdb.firebaseio.com/.json`, JSON.stringify(newObj), function(data) {
               console.log(data)
               document.getElementById('closeModal').click()

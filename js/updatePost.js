@@ -1,5 +1,4 @@
 //////////Obtener un posts con jq GET
-const firebaseUrl='https://medium-7cfcc-default-rtdb.firebaseio.com/'
 
 $(document).ready(function(){
     const idPost = location.search.slice(8)
@@ -24,7 +23,7 @@ $(document).ready(function(){
     const updateUserFetch =  (objPost, idPost) => {
         $.ajax({
             method:'PATCH', 
-            url:`${firebaseUrl}${idPost}.json`,
+            url:`https://medium-7cfcc-default-rtdb.firebaseio.com/${idPost}.json`,
             data: JSON.stringify(
                 objPost
             )
@@ -32,6 +31,7 @@ $(document).ready(function(){
             console.log(response)
             // do something
             $('#alert__response').css('display','block')
+            location.pathname='/index.html'
         }) .fail( function (err) {
             console.log(err)
         })
@@ -82,7 +82,7 @@ $(document).ready(function(){
     const deletePost = (idPost) => {
         $.ajax({
             method:'DELETE',
-            url: `${firebaseUrl}${idPost}.json`
+            url: `https://medium-7cfcc-default-rtdb.firebaseio.com/${idPost}.json`
         }).done(function(response){
             console.log(response)
             // do something

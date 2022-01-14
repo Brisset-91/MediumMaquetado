@@ -1,11 +1,9 @@
 
-const firebaseUrl='https://medium-7cfcc-default-rtdb.firebaseio.com/'
-//https://medium-7cfcc-default-rtdb.firebaseio.com/
-
 $(document).ready(function(){
 //----------------------Método posts para crear ---------------------------------
-  const newPost = (newObj) => {
-      $.post(`${firebaseUrl}.json`, JSON.stringify(newObj), function(data) {
+const newPost = (newObj) => {
+
+      $.post("https://medium-7cfcc-default-rtdb.firebaseio.com/.json", JSON.stringify(newObj), function(data) {
               console.log(data)
               document.getElementById('closeModal').click()
       }).fail( function (err) {
@@ -61,7 +59,7 @@ btnSendPost.addEventListener('click', () => {
 //----------------------Método Get traer todos los posts---------------------------------
       $.ajax({
           method: 'GET',
-          url: `${firebaseUrl}.json`
+          url: "https://medium-7cfcc-default-rtdb.firebaseio.com/.json"
       }).done((data) => {
           console.log(data)
           let temp = ''

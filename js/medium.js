@@ -1,8 +1,11 @@
 
+const firebaseUrl='https://medium-7cfcc-default-rtdb.firebaseio.com/'
+//https://medium-7cfcc-default-rtdb.firebaseio.com/
+
 $(document).ready(function(){
 //----------------------Método posts para crear ---------------------------------
   const newPost = (newObj) => {
-      $.post('https://medium-7cfcc-default-rtdb.firebaseio.com/.json', JSON.stringify(newObj), function(data) {
+      $.post(`${firebaseUrl}.json`, JSON.stringify(newObj), function(data) {
               console.log(data)
               document.getElementById('closeModal').click()
       }).fail( function (err) {
@@ -10,10 +13,10 @@ $(document).ready(function(){
       })
   }
 
-  let sendPost = document.querySelector('#sendPost')
+  let btnSendPost = document.querySelector('#sendPost')
 
 //----------------------Función para crear posts con el método post ---------------------------------
-  sendPost.addEventListener('click', () => {
+btnSendPost.addEventListener('click', () => {
     console.log('click')
       let title = document.querySelector('#title').value
       let imgPerfil = document.querySelector('#imgPerfil').value
@@ -58,7 +61,7 @@ $(document).ready(function(){
 //----------------------Método Get traer todos los posts---------------------------------
       $.ajax({
           method: 'GET',
-          url: "https://medium-7cfcc-default-rtdb.firebaseio.com/.json"
+          url: `${firebaseUrl}.json`
       }).done((data) => {
           console.log(data)
           let temp = ''
@@ -67,7 +70,11 @@ $(document).ready(function(){
               let { title, imgPerfil, author, dateCreated, readingTime, formFile, abstract, postContent } = data[post]
               temp += `
               <div class="row g-0">
+<<<<<<< HEAD
                 <div class="col-md-7 ">
+=======
+                <div class="col-md-12 d-flex">
+>>>>>>> develop
                     <div class="card-body">
                       <div class="col d-flex justify-content-start">
                       <img src="${imgPerfil}" class= "user_img card-img-top rounded-circle border 0" alt="">
